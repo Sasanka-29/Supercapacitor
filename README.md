@@ -9,7 +9,7 @@ This document explores the possibility of using the **HSH1630-3R8457-R** superca
 
 <!-- ![Figure 1: Block Diagram]("\image.png") -->
 
-![Block Diagram](image.png)
+![Block Diagram](blockdiagram.png)
 _(Replace the link above with the actual screenshot if you want to embed it)_
 
 ## 2. Requirements
