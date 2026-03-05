@@ -23,15 +23,15 @@
 
 This document evaluates the feasibility of powering the **Shock360** module with an **HSH1630-3R8457-R** hybrid supercapacitor bank in a 7S1P configuration.
 
-<p align="center">
+<!-- <p align="center">
   <img src="blockdiagram.png" alt="System Block Diagram" width="600"/>
-</p>
+</p> -->
 
 ```mermaid
 graph TD;
-    A(Handcrank) -->|20W, 28V| B(Supercapacitor Bank)
-    B -->|22V, 5.9A| C(DC-DC Converter)
-    C -->|21V, 5.6A for 3.6s| D(Shock360 Module)
+    A(Handcrank) -->|20W, 28V| B(Supercapacitor Bank);
+    B -->|22V, 5.9A| C(DC-DC Converter);
+    C -->|21V, 5.6A for 3.6s| D(Shock360 Module);
 ```
 
 ---
