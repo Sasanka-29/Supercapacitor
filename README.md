@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Supercapacitor Bank
 
 **Sasanka Barman**  
@@ -120,3 +121,6 @@ Leakage current ≈ **70 µA**
 ---
 
 **End of document**
+=======
+# MED_Handcrank_Defibrilator
+>>>>>>> 0994d1e6bbd5507736fedb6988c1e5b5f0d98b8c
