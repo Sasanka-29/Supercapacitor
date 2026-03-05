@@ -107,7 +107,7 @@ $$
 ### 6.3 Maximum Supercapacitor Voltage
 
 $$
-V_{\text{max}} = \sqrt{\frac{2 \times 495.6}{64.3}} + 21.67 = \mathbf{22.02\;V}
+V_{\text{max}} = \sqrt{\frac{2 \times 495.6}{64.3}} + 21.67 = \mathbf{22.02\V}
 $$
 
 ---
