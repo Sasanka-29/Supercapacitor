@@ -7,7 +7,9 @@
 
 This document explores the possibility of using the **HSH1630-3R8457-R** supercapacitor bank with the **Shock360** module.
 
-![Figure 1: Block Diagram]("\image.png")
+<!-- ![Figure 1: Block Diagram]("\image.png") -->
+
+![Block Diagram](image.png)
 _(Replace the link above with the actual screenshot if you want to embed it)_
 
 ## 2. Requirements
