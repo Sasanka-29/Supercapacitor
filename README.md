@@ -7,12 +7,12 @@
 
 This document explores the possibility of using the **HSH1630-3R8457-R** supercapacitor bank with the **Shock360** module.
 
-![Figure 1: Block Diagram](https://i.imgur.com/placeholder-block-diagram.png)  
+![Figure 1: Block Diagram]("E:\Github\Supercaps\image.png")
 _(Replace the link above with the actual screenshot if you want to embed it)_
 
 ## 2. Requirements
 
-### 2.1 Shock360 Module Power Supply (195 µF / 360 J)
+### 2.1 Shock360 Module Power Supply (195 uF / 360 J)
 
 - **Supply Voltage**: 21 V
 - **Peak Current**: 5.6 A @ 3.6 s
