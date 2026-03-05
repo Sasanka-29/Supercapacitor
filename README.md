@@ -28,41 +28,12 @@ This document evaluates the feasibility of powering the **Shock360** module with
 </p>
 
 ```mermaid
----
-config:
-  flowchart:
-    curve: monotoneX
-  layout: dagre
----
-flowchart LR
- subgraph I["Input: Handcrank"]
-        A["Hand Crank<br/>(Manual Input)"]
-  end
- subgraph S["Storage: Energy Bank"]
-        B["Supercapacitor<br/>26.6V, 64.3F"]
-  end
- subgraph Cnv["Conversion: LTM8055"]
-        C["DC–DC Converter<br/>90% Efficiency"]
-  end
- subgraph O["Output: Electrical Load"]
-        D["SHOCK360 Module<br/>21V, 5.6A, 2W for 3.6s"]
-  end
-    A -- 20W / 28V --> B
-    B -- "≈22V → 5.9A" --> C
-    C -- "≈21V → 5.6A" --> D
+graph TD;
+    A(Handcrank) -->|20W, 28V| B(Supercapacitor Bank)
+    B -->|22V, 5.9A| C(DC-DC Converter)
+    C -->|21V, 5.6A for 3.6s| D(Shock360 Module)
+```
 
-    A@{ shape: sm-circ}
-    B@{ shape: cyl}
-    C@{ shape: hex}
-    D@{ shape: rect}
-     A:::input
-     B:::storage
-     C:::convert
-     D:::output
-    classDef input fill:#f4f9ff,stroke:#007acc,stroke-width:2px
-    classDef storage fill:#e6ffea,stroke:#008000,stroke-width:2px
-    classDef convert fill:#fffbe6,stroke:#ff9900,stroke-width:2px
-    classDef output fill:#ffe6e6,stroke:#cc0000,stroke-width:2px
 ---
 
 ## 2. Requirements
@@ -203,4 +174,7 @@ $$
 | 45   |       4.23 V |           17.43 V |
 
 > **Recommendation:** Charge the bank once every **4 weeks** to **25.2 V** (3.6 V per cell) to maintain readiness and longevity.
+
+```
+
 ```
