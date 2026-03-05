@@ -1,7 +1,7 @@
 # Supercapacitor Bank — Shock360 Feasibility Study
 
 > **Author:** Sasanka Barman  
-> **Date:** March 3, 2026
+> **Date:** March, 2026
 
 ---
 
@@ -22,10 +22,6 @@
 ## 1. Introduction
 
 This document evaluates the feasibility of powering the **Shock360** module with an **HSH1630-3R8457-R** hybrid supercapacitor bank in a 7S1P configuration.
-
-<!-- <p align="center">
-  <img src="blockdiagram.png" alt="System Block Diagram" width="600"/>
-</p> -->
 
 ```mermaid
 graph TD;
